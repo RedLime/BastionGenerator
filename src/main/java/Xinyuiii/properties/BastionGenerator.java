@@ -234,7 +234,7 @@ public class BastionGenerator {
     static public class Piece {
         String name;
         public BPos pos;
-        BlockBox box;
+        public BlockBox box;
         public BlockRotation rotation;
         int boundsTop;
         private VoxelShape voxelShape;
